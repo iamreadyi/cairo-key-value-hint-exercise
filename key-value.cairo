@@ -122,5 +122,9 @@ func sum_by_key{range_check_ptr}(list : KeyValue*, size) -> (
     # Call verify_and_output_squashed_dict()...
 end
 
+#Expected expression of type 'felt', got 'starkware.cairo.common.dict_access.DictAccess*'.
+#        return (dict=dict)
+#                    ^**^
+
 
 
